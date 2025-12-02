@@ -1,5 +1,114 @@
-.stu {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: red;
-    font-size: 100px;
+body{
+    margin: 0;
+
+}
+.signup {
+    padding: 150px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap:10px;
+    border-radius: 50px;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.signup-con{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.btn{
+    justify-content: center;
+    display: flex;
+}
+
+.header-cont{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.head-items{
+     display: flex;
+     color: white;
+     gap: 25px;
+     list-style: none;
+}
+.logo-image{
+    height: 110px;
+    width: 110px;
+    object-fit: contain;
+}
+
+.head-cont{
+    display: flex;
+    align-items: center;
+}
+.log-cont{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./assets/image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-attachment: fixed;
+}
+.log{
+    padding: 150px;
+    height: 20px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px 50px 50px;
+    justify-content: center;
+    align-content: center ;
+    gap: 10px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1{
+    padding: 10px 25px 10px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-size: large;
+    border-radius: 15px;
+}
+
+.main-section{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./assets/image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-attachment: fixed;
 }
