@@ -176,3 +176,19 @@ body{
         color: white;
         z-index: 20;
     }
+
+
+    .footer-cont{
+        height: 10vh;
+        color: white;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+        position:fixed;
+        bottom: 0;
+        height:20px;
+        width: 100%;
+    }
