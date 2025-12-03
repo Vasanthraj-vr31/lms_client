@@ -46,6 +46,16 @@ body{
      color: white;
      gap: 25px;
      list-style: none;
+     
+}
+.head-items a{
+  text-decoration: none;
+  color: white;
+  transition: 5s;
+}
+.head-items a:hover{
+    letter-spacing: 0;
+    color: white;
 }
 .logo-image{
     height: 110px;
@@ -105,10 +115,64 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('./assets/image.png');
+    
+}
+
+.box{
+
+    background-image: url("https://img.freepik.com/premium-photo/2019-f1-car-blue-racing-car-black-background_899449-241843.jpg?w=360");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    object-fit: contain;
+    background-size: contain;
     background-attachment: fixed;
+     height: 250px;
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
 }
+/*
+.box:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRseoeIOsY0L6p43Mk-xAVsFfY2OluVJJ4-ug&s");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment:fixed ;
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.box1{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap:10px;
+}
+*/
+body{
+        margin: 0;
+        padding: 0;
+
+        
+    }
+
+    .vi-bg{
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        left:0;
+        object-fit: cover;
+        z-index:-1;
+    }
+
+    .content{
+        font-size: x-large;
+        font-weight: bold;
+        color: white;
+        z-index: 20;
+    }
